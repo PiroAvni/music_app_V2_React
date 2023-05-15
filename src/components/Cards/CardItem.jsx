@@ -24,7 +24,7 @@ function Cards(albums, index) {
     <>
         <Card  className="card"
           style={{
-            width: "18rem",
+            width: "30rem",
           }}
           key={index}
         >
