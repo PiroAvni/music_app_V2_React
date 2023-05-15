@@ -3,7 +3,7 @@ import Banner from './components/Banner';
 import Hero from "./components/Hero";
 import './App.css'
 import CardList from './components/Cards/CardList';
-import Form from "./components/Form/Form";
+import UserForm from './components/form/UserForm';
 function App() {
 
 
@@ -12,7 +12,7 @@ function App() {
      <Banner/>
      <Hero/>
      <CardList/>
-     <Form/>
+     <UserForm/>
     </>
   )
 }
