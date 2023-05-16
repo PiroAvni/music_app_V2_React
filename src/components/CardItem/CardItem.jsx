@@ -5,19 +5,17 @@ import { useState } from "react";
 // import "./card.css";
 
 function Cards(albums, index) {
-  const [favourite, setFavourite] = useState(false);
+  const [likes, setLikes] = useState(0);
+  const [dislikes, setDislikes] = useState(0);
 
-  const handleFavorite = (e) => {
-    if (favourite === false) {
-      setFavourite(prevState => prevState = true);
-      e.target.innerText = "Dislike";
-    } else {
-      setFavourite(prevState => 
-        prevState = false
-        );
-      e.target.innerText = "Favourite";
-    }
+  const handleLike = () => {
+    setLikes(likes + 1);
   };
+
+  const handleDislike = () => {
+    setDislikes(dislikes + 1);
+  };
+  
   console.log(albums);
 
   return (
@@ -32,13 +30,14 @@ function Cards(albums, index) {
           <Card.Body className="card-body">
             <Card.Title className="card-title"> Album: {albums.albums.name} </Card.Title>
             <Card.Text className="card-text">Release Date: {albums.albums.date} </Card.Text>
-            <Button onClick={handleFavorite} variant="primary">
-              Favourite
-            </Button>
+            <Button className="btn-like" onClick= {handleLike} variant="primary">
+             Like 
+              ({likes})</Button>
+            <Button className="btn-dislike"onClick= {handleDislike} >
+              Dislike 
+              ({dislikes})</Button>
           </Card.Body>
         </Card>
-
-
 </>
   );
 }

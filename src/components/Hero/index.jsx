@@ -1,4 +1,4 @@
-import image from "../../public/images/187738.jpg"
+import image from "../../../public/images/187738.jpg"
 
 function Hero() {
 

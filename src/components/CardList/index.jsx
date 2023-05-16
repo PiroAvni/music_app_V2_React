@@ -1,7 +1,7 @@
 
 import { albums } from '../../data/albums.json';
 // import Card from "react-bootstrap/Card";
-import Cards from "./CardItem";
+import Cards from "../CardItem/CardItem";
 
 function CardList() {
   return(

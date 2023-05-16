@@ -80,3 +80,19 @@ img {
     margin: 3rem auto auto auto;
     gap:2rem;
 }
+Button{
+  margin:3px;
+}
+.btn-like{
+  background-color:darkorchid;
+}
+.btn-like:hover{
+  background-color:rgb(100, 75, 112);
+}
+.btn-dislike{
+  background-color:rgb(250, 39, 120);
+}
+.btn-dislike:hover{
+  background-color:rgb(175, 134, 150);
+}
+

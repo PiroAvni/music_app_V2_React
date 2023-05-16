@@ -1,4 +1,4 @@
-import image from "../../public/images/mj.jpg"
+import image from "../../../public/images/mj.jpg"
 
 function Banner() {
   return (
@@ -8,4 +8,4 @@ function Banner() {
   )
 }
 
-export default Banner
+export default Banner;
