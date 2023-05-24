@@ -1,4 +1,6 @@
 import image from "../../../public/images/187738.jpg"
+import './hero.css'
+
 
 function Hero() {
 

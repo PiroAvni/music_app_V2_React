@@ -1,3 +1,5 @@
+import './banner.css'
+
 import image from "../../../public/images/mj.jpg"
 
 function Banner() {

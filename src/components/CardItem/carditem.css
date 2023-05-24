@@ -1,0 +1,57 @@
+/* .card {
+  display: flex;
+  flex-direction: column;
+} */
+
+.card-img-top {
+  width: 100%;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.card-body {
+  margin: 1rem;
+}
+.card-title {
+  font-size: 1.2rem;
+}
+.card-text {
+  font-size: 0.9rem;
+}
+
+Button {
+  margin: 3px;
+}
+.btn-like {
+  background-color: darkorchid;
+}
+.btn-like:hover {
+  background-color: rgb(100, 75, 112);
+}
+.btn-dislike {
+  background-color: rgb(250, 39, 120);
+}
+.btn-dislike:hover {
+  background-color: rgb(175, 134, 150);
+}
+.card {
+ 
+  background-color: #ececec;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.card.hovered {
+  transform: scale(1.05);
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 2;
+}

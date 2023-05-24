@@ -1,0 +1,13 @@
+.banner{
+ 
+    object-fit: cover;
+   
+    width: 100%;
+    object-fit: scale-down;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .banner-img{
+    max-width:100%;
+    height:auto;
+  }
