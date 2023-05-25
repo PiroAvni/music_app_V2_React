@@ -1,13 +1,13 @@
 .awards-container {
-      /* display: flex; */
-    flex-direction: row;
-    border-radius: 20px;
-    width: 100%;
-    OVERFLOW: hidden;
+  /* display: flex; */
+  height: 600px;
+  flex-direction: row;
+  /* border-radius: 20px; */
+  width: 100%;
+  overflow: hidden;
 }
 
 .award-section {
- 
   /* height: 800px;
   flex-direction: row;
   background-image: linear-gradient(
@@ -15,10 +15,14 @@
     rgb(252, 252, 253),
     hsl(0, 0%, 100%, 0)
   ); */
-    DISPLAY: FLEX;
-    height: 800px;
-    flex-direction: row;
-    background-image: linear-gradient( to right, rgb(252, 252, 253), hsl(0, 0%, 100%, 0) );
+  display: flex;
+  height: 600px;
+  flex-direction: row;
+  background-image: linear-gradient(
+    to right,
+    rgb(252, 252, 253),
+    hsl(0, 0%, 100%, 0)
+  );
 }
 
 .image-container {
@@ -28,18 +32,17 @@
   max-width: 70%;
   overflow: hidden;
   position: relative;  */
-display: flex;
-    flex-direction: column;
-    max-width: 70%;
-    overflow: hidden;
-    position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 70%;
+  /* overflow: hidden; */
+  position: relative;
 }
 span {
   overflow: hidden;
-
 }
-.awards-image{
-    width:60%;
+.awards-image {
+  width: 605px;
 }
 .awards-image image {
   top: 0;
@@ -58,21 +61,19 @@ span {
   min-height: 100%;
   max-height: 100%;
   object-fit: cover;
- 
 }
-.image{
-    /* transform: translateX(-15%) translateY(-23%);
+.image {
+  /* transform: translateX(-15%) translateY(-23%);
     width: 880px;
     height: auto;
     object-fit: cover; */
-          transform: translateX(0%) translateY(-17%);
-    width: 100%;
-    /* height: auto; */
-    object-fit: cover;
-    height: auto;
-    width: auto;
-    max-width: 900PX;
-    max-height: 800PX;
+  transform: translateX(0%) translateY(-17%);
+
+  object-fit: cover;
+  height: auto;
+  width: auto;
+  max-width: 900px;
+  max-height: 900px;
 }
 .linear {
   background-image: linear-gradient(
@@ -80,23 +81,54 @@ span {
     rgb(252, 252, 253),
     hsl(0, 0%, 100%, 0)
   );
-  width: 40%;
+  width: 50%;
   height: 100%;
   display: block;
-  right: 40%;
+  right: 112%;
   top: 0;
   bottom: 100%;
-  position: relative;
+  position: absolute;
   z-index: auto;
 }
 .awards-details {
-  /* padding: 1.5rem 5rem; */
-  width: 40%;
+  display: flex;
+  padding: 0rem 5rem;
+  width: 100%;
 }
-.award-desc-container{
-    display: flex;
+.award-desc-container {
+  display: flex;
   flex-direction: column;
-    justify-content: center;
-    position: relative;
-    width: 100%;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+.award-image {
+  height: auto;
+  width: auto;
+  max-width: 200px;
+  max-height: 200px;
+  margin-bottom:1rem;
+}
+.awards-title {
+  font-size: 3.5rem;
+}
+.award-desc-text {
+  font-size: 3.5rem;
+  margin-top: 2rem;
+  font-weight: bolder;
+}
+.sub-title {
+  margin: 1rem;
+  font-weight: bold;
+  font-size:2rem;
+
+}
+.awards-title, .sub-title{
+  color:rgba(182,152,89)
+ 
+}
+.underline{
+  border-bottom: 5px solid firebrick;
+  width: 60%;
+  margin:0 auto;
 }

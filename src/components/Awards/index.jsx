@@ -18,14 +18,18 @@ const Awards = () => {
           </div>
         </div>
 
-        <div className="awards-details">
+        <div className="awards-details"><div className="award-desc-container">
+          
           <div className="linear"></div>
-        </div>
-        <div className="award-desc-container">
-          <h2 className="awards-title"> GRAMMY AWARDS</h2>
+        
+        <h2 className="awards-title"> GRAMMY AWARDS</h2>
+        <div className="underline"></div>
           <div className="awards-desc">
             <h3 className="sub-title"> Wins</h3>
-            <img src={grammy.default} alt="" />
+            <img className="award-image" src={grammy.default} alt="" />
+            <div className="underline"></div>
+            <p className="award-desc-text">13</p>
+            </div>
           </div>
         </div>
       </div>

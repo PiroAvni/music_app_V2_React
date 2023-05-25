@@ -20,7 +20,7 @@ function Nav() {
         <img className=" logo-image "    src="../../../public/images/logo.png" alt="Michael Jackson Logo"/>
       </div>
       <ul className="nav-links">
-        <NavLink to="/home" style={({ isActive }) =>
+        <NavLink to="/" style={({ isActive }) =>
               isActive ? activeStyle : undefined
             }>Home</NavLink>
         <NavLink to="/about" style={({ isActive }) =>
